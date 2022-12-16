@@ -9,6 +9,8 @@ export interface Poem {
   uri: string;
   authors: Author[];
   title: string;
+  source: string;
+  sourceUrl: string;
 }
 
 export interface CorpusMetrics {
