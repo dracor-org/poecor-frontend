@@ -1,0 +1,16 @@
+[
+  {
+    "name": "postdata",
+    "title": "POSTDATA Corpus",
+    "description": "POSTDATA Knowledge Graph of Spanish Poetry. See https://postdata.linhd.uned.es",
+    "metrics": {
+      "authors": 73,
+      "poems": 1003,
+      "stanzas": 5109,
+      "verses": 105236,
+      "words": 571355,
+      "grammaticalSyllables": 1054869,
+      "metricalSyllables": 299990
+    }
+  }
+]
