@@ -15,7 +15,7 @@ export default function Topnav() {
       <div>
         <a
           href="https://github.com/dracor-org/poecor-frontend"
-          title="Einakter Github"
+          title="PoeCor Github"
           className="text-white"
         >
           <FontAwesomeIcon icon={faGithub} size="2xl" />
