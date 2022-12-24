@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getPoem } from './api';
 import { Poem as PoemData } from './types';
 
@@ -31,6 +31,7 @@ export default function Poem() {
     return () => {
       isMounted = false;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const authors = poem?.authors?.map((a) => a.name).join(', ');
