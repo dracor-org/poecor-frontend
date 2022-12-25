@@ -3,6 +3,21 @@ export interface Author {
   uri: string;
 }
 
+export interface Analysis {
+  numOfStanzas: number;
+  numOfLines: number;
+  numOfWords: number;
+  numOfLinesInStanzas: number[];
+  rhymeSchemesOfStanzas: string[];
+  numOfMetricalSyllables: number;
+  numOfGrammaticalSyllables: number;
+  numOfMetricalSyllablesInStanzas: string[][];
+  numOfGrammaticalSyllablesInStanzas: string[][];
+  numOfWordsInStanzas: string[][];
+  grammaticalStressPatternsInStanzas: string[][];
+  metricalPatternsInStanzas: string[][];
+}
+
 export interface Poem {
   id: string;
   name: string;
@@ -11,6 +26,7 @@ export interface Poem {
   title: string;
   source: string;
   sourceUrl: string;
+  analysis?: Analysis;
 }
 
 export interface CorpusMetrics {
