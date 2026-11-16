@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. It goes back to the report listed under references."
+title: "poecor-frontend: the web interface of PoeCor (Poetry Corpora)"
+type: software
+authors:
+  - family-names: Milling
+    given-names: Carsten
+    orcid: "https://orcid.org/0000-0003-0553-7512"
+repository-code: "https://github.com/dracor-org/poecor-frontend"
+license: MIT
+version: "0.3.0"
+date-released: "2022-12-25"
+keywords:
+  - DraCor
+  - PoeCor
+  - POSTDATA
+  - poetry
+  - programmable corpora
+references:
+  - type: report
+    title: "On Programmable Corpora"
+    authors:
+      - family-names: Börner
+        given-names: Ingo
+        orcid: "https://orcid.org/0000-0001-8294-2541"
+      - family-names: Trilcke
+        given-names: Peer
+        orcid: "https://orcid.org/0000-0002-1421-4320"
+    year: 2023
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.7664964"
+    notes: "CLS INFRA D7.1"

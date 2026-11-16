@@ -1,8 +1,20 @@
 # PoeCor Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The web interface of PoeCor ("Poetry Corpora"): a limited, [DraCor](https://dracor.org)-like view of poetic corpora from the [POSTDATA](https://postdata.linhd.uned.es) project (ERC Starting Grant 2015, grant agreement No. 679528; LINHD, UNED Madrid).
+
+> **Archived.** This repository is no longer maintained. It was deployed at poecor.org, which was shut down in November 2026.
+
+## Background
+
+PoeCor goes back to a demonstrator developed in [CLS INFRA](https://clsinfra.io) (Horizon 2020, grant agreement No. 101004984), work package 7, and described in section 6.2, "Bridging POSTDATA and DraCor as Programmable Corpora", of the report:
+
+- Börner, Ingo; Trilcke, Peer (2023): *On Programmable Corpora*. CLS INFRA D7.1. Zenodo. https://doi.org/10.5281/zenodo.7664964
+
+The frontend lists the corpora, the poems of a corpus and, for a single poem, its metadata and the results of POSTDATA's automatic analysis. It was written to consume the [PoeCor API](https://github.com/dracor-org/poecor-api) (`/api`), but runs on mock data served by a [mock service worker](https://mswjs.io) (`src/mocks/`). As the report notes, the deployed version operated on mock data pre-generated with a Jupyter notebook in [dh-network/postdata-2-dracor-api](https://github.com/dh-network/postdata-2-dracor-api).
 
 ## Development
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Prerequisites
 
@@ -61,3 +73,11 @@ By default you will be asked to enter a new version number. With the commands
 respective part of the version number is incremented automatically. (See the
 [yarn documentation](https://classic.yarnpkg.com/en/docs/cli/version/) for
 details.)
+
+## Citation
+
+See `CITATION.cff`. The software is archived on Zenodo (see the DOI in the repository description and the release `2026-11-16-archive`). When referring to the work, please also cite the report (DOI above).
+
+## Licence
+
+The code is licensed under the [MIT License](LICENSE).
