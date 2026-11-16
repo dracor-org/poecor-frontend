@@ -1,5 +1,7 @@
 # PoeCor Frontend
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24274705.svg)](https://doi.org/10.5281/zenodo.24274705)
+
 The web interface of PoeCor ("Poetry Corpora"): a limited, [DraCor](https://dracor.org)-like view of poetic corpora from the [POSTDATA](https://postdata.linhd.uned.es) project (ERC Starting Grant 2015, grant agreement No. 679528; LINHD, UNED Madrid).
 
 > **Archived.** This repository is no longer maintained. It was deployed at poecor.org, which was shut down in November 2026.
@@ -76,7 +78,7 @@ details.)
 
 ## Citation
 
-See `CITATION.cff`. The software is archived on Zenodo (see the DOI in the repository description and the release `2026-11-16-archive`). When referring to the work, please also cite the report (DOI above).
+See `CITATION.cff`. The software is archived on Zenodo: https://doi.org/10.5281/zenodo.24274705 (all versions; the release `2026-11-16-archive` is the archived state). When referring to the work, please also cite the report (DOI above).
 
 ## Licence
 
